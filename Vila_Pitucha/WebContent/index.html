@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<html lang="pt-BR">
+<meta charset="utf-8">
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+
+<head>
+	<title>Início</title>
+<link rel="stylesheet" type="text/css" href="style-band.css">
+</head>
+<body>
+
+<div  ng-app="">
+
+	<header>
+		<h1 class="hr1">
+			Blog
+		</h1>	
+	</header>
+
+<p class="ex">
+	A manhã é calma e fria, o mormaço embaça os vidros em predios a beira de uma avenida movimentada, vendedores ambulantes trabalham enquanto fogem da chuva, não há gosto para alguns num dia chuvoso e belo, afinal, ainda não é o que eles querem.
+</p>
+
+<form class="inpt">
+<input  type="text" name="nome" ng-model="nome" placeholder="Digite seu nome aqui">	
+</form>
+
+  <p class="an">{{nome}}</p>
+
+</div>
+</body>
+</html>
